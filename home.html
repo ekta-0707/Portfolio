@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1><span id="typing-text"></span><span class="cursor">|</span></h1>
+      <p>Software Developer | SAIT Graduate</p>
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="home-about" class="fade-in">
+  <h2>Hi, I'm Ekta Sharma 👋</h2>
+  <p>
+    A software developer and aspiring data analyst with a diploma in <strong>Software Development from SAIT (2023–2024)</strong>. I enjoy building responsive full-stack web apps using <strong>JavaScript, React, Node.js</strong>, and <strong>Firebase</strong>.
+  </p>
+
+  <p>
+    I'm also passionate about working with data. With hands-on experience in <strong>SQL, MySQL, and MongoDB</strong>, I understand how to design, query, and manage databases — a valuable skill in both development and data analysis.
+  </p>
+
+  <p>
+    Whether I’m writing clean code or diving into datasets, I love solving problems and building solutions that make an impact.
+  </p>
+
+  <a href="about.html" class="btn">💡 Learn More About Me</a>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Netflix Clone</h3>
+        <p>
+          A front-end clone of the Netflix homepage built using HTML and CSS.
+        </p>
+        <a href="https://ekta-0707.github.io/Clone-of-Netflix-/" target="_blank"
+          >View Code</a
+        >
+      </div>
+
+      <div class="project">
+        <h3>Client Website</h3>
+        <p>
+          A real-world website developed for a client using HTML, CSS, and
+          JavaScript.
+        </p>
+        <a
+          href="https://ekta-0707.github.io/Life-Coach-Tania-Sandhu/"
+          target="_blank"
+          >View Code</a
+        >
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form
+        id="contact-form"
+        action="https://formspree.io/f/mzzggjej"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required autocomplete="name"/>
+        <input type="email" name="email" placeholder="Your Email" required autocomplete="email" />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Ekta Sharma. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
