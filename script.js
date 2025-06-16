@@ -73,3 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
     type();
   }
 });
+
+@media (max-width: 480px) {
+  header nav ul.navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
